@@ -18,7 +18,6 @@ function App() {
   const {cart, showCart } = useGlobalContext();
   return (
     <div className={ showCart?"App showCart": "App"}>
-      {/* <Training/> */}
       <Header />
       <ScrollToTop/>
     {showCart && <Cart/>}  
